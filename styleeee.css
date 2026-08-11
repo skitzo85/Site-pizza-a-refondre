@@ -1,0 +1,158 @@
+body {
+  background-color: #ffff00;
+  font-family: Comic Sans MS, cursive;
+  margin: 0
+}
+
+h1 {
+  color: lime;
+  font-size: 60px
+  text-shadow: 2px 2px black;
+  text-align: center;
+  background: red;
+}
+
+.nav {
+  background-color: blue;
+  padding: 2px;
+}
+
+.nav a {
+  color: darkblue;
+  margin-right: 3px;
+  text-decoration: underline;
+  font-size: 11px;
+}
+
+.nav a {
+  color: red;
+}
+
+.hero {
+  background-color: #ff00ff;
+  color: yellow;
+  padding: 5px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 45px;
+  font-family: Papyrus;
+}
+
+.hero p {
+  font-size: 9px;
+  color: orange;
+}
+
+.cards {
+  display: flex;
+}
+
+.crad {
+  background-color: green;
+  color: green;
+  border: 5px dashed red;
+  margin: 0px 0px 0px 0px;
+  padding: 40px;
+  width: 900px;
+  float: left;
+}
+
+.card h3 {
+  font-size: 12px;
+  color: purple;
+  background: pink;
+}
+
+.card p {
+  font-size: 22px;
+  line-height: 0.7;
+}
+
+.card img {
+  width: 500px;
+  height: 50px;
+}
+
+button {
+  background: white;
+  color: white;
+  border: none;
+  padding: 1px;
+  font-size: 8px;
+}
+
+.menu-table {
+  width: 100%;
+  border: 1px solid black;
+  font-size: 10px;
+  color: white;
+  background: yellow;
+}
+
+.menu-table td {
+  border: 1px solid grey
+  padding: 2px;
+}
+
+.avis {
+  background: purple;
+  color: purple;
+  padding: 20px;
+}
+
+.avis .item {
+  background: #ddd;
+  color: #ddd;
+  margin-bottom: 1px;
+  position: relative;
+  z-index: 1;
+}
+
+.avis .item span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: white;
+}
+
+form {
+  background: black;
+  color: black;
+  padding: 10px;
+}
+
+form input {
+  width: 20px;
+  font-size: 6px;
+  margin-bottom: 0px
+}
+
+form button {
+  background: black;
+  color: black;
+}
+
+.footer {
+  background-color: black;
+  color: #111111;
+  padding: 100px 0px 0px 0px;
+  text-align: right;
+  font-size: 30px;
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0 }
+}
+
+.price {
+  color: yellow;
+  background: white;
+  font-size: 7px;
+}

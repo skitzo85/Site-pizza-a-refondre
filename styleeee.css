@@ -1,3 +1,6 @@
+/* ⚠️ Ce fichier s'appelle styleeee.css exprès — vérifie que ton <link> pointe bien dessus.
+   Si ta page reste sans style au chargement, regarde l'onglet Réseau de l'inspecteur avant de paniquer. */
+
 body {
   background-color: #ffff00;
   font-family: Comic Sans MS, cursive;
@@ -76,12 +79,11 @@ h1 {
 }
 
 button {
-  
+  background: white;
   color: white;
   border: none;
   padding: 1px;
   font-size: 8px;
-  background: white
 }
 
 .menu-table {

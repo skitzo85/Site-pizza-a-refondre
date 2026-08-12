@@ -1,135 +1,152 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Chez Mario - Pizzeria</title>
-<meta name="description" content="La pizza la plus stylée depuis la promo CDUI, testée et approuvée par 14 militaires en reconversion.">
-<link rel="stylesheet" href="styleeee.css">
+  <meta charset="UTF-8">
+  <title>Chez Mario - Pizzeria</title>
+  <meta name="description"
+    content="La pizza la plus stylée depuis la promo CDUI, testée et approuvée par 14 militaires en reconversion.">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- 🕵️ Easter egg n°1 : si tu lis ce commentaire, va dire à Wassila que t'as trouvé le premier oeuf caché, +1 point bonus -->
+  <!-- 🕵️ Easter egg n°1 : si tu lis ce commentaire, va dire à Wassila que t'as trouvé le premier oeuf caché, +1 point bonus -->
 
-<div class="nav">
-  <a href="#">Accueil</a>
-  <a href="#">Menu</a>
-  <a href="#">A propos</a>
-  <a href="#">Contact
-  <a href="#">Réservation en ligne cliquez ici</a>
-</div>
-
-<h1>CHEZ MARIO — LA MEILLEURE PIZZA DE LA VILLE !!!</h1>
-
-<div class="hero">
-  <h2>Bienvenue chez nous
-  <p>Depuis 1998 nous servons des pizzas authentiques italiennes faites maison avec des produits frais et de qualité sélectionnés avec soin par notre chef (qui a appris Blender le week-end dernier, ça se voit sur la déco).</p>
-  <button class="blink">COMMANDER MAINTENANT</button>
-</div>
-
-<div class="cards">
-  <div class="crad" id="card1">
-    <h3>Pizza Margherita</h3>
-    <img src="https://via.placeholder.com/500x300">
-    <p>Tomate, mozzarella, basilic frais, huile d'olive extra vierge. Un grand classique italien préparé selon la recette traditionnelle napolitaine.
-    <span class="price">9,50 €</span>
+  <div class="nav">
+    <img class="logoMario" src="\PIZZA/Site-pizza-a-refondre/img/logo.png" alt="Mario pizzeria">
+    <a href="#">Accueil</a>
+    <a href="#">Menu</a>
+    <a href="#">A propos</a>
+    <a href="#">Contact
+      <a href="#">Réservation en ligne cliquez ici</a>
+      <button class="btn">Commander maintenant</button>
   </div>
 
-  <div class="card" id="card1">
-    <h3>Pizza Quatre Fromages</h3>
-    <img src="https://via.placeholder.com/500x300" alt="pizza">
-    <p>Mozzarella, gorgonzola, parmesan, chèvre. Pour les amateurs de fromage, une explosion de saveurs à chaque bouchée garantie.</p>
-    <span class="price">11,00 €</span>
+  <div class="hero">
+    <div class="hero-image">
+      <img class="logoPizza" src="\PIZZA\Site-pizza-a-refondre\img\logo2.jpg" alt="PizzaBand">
+      <h2 class="hero-title">Nos Pizzas du moment</h2>
+    </div>
   </div>
 
-  <div class="card" id="card3">
-    <h3>Pizza Kahoot</h3>
-    <img src="https://via.placeholder.com/500x300" alt="pizza">
-    <p>Quizz, Stop Kahoot, Conforama, Lt Bus. Un quizz parfait entre simplicité et humour pour tous.</p>
-    <span class="price">10,50 €</span>
+  <div class="cards">
+    <div class="card" id="card1">
+
+      <img src="/PIZZA\Site-pizza-a-refondre\img\pizza01.jpeg">
+      <h3>Pizza Margherita</h3>
+      <p>Tomate, mozzarella, basilic frais, huile d'olive extra vierge. Un grand classique italien préparé selon la
+        recette traditionnelle napolitaine.</p>
+      <span class="price">9,50 €</span>
+    </div>
+
+    <div class="card" id="card2">
+
+      <img src="/PIZZA\Site-pizza-a-refondre\img\pizza02.jpeg" alt="pizza">
+      <h3>Pizza Quatre Fromages</h3>
+      <p>Mozzarella, gorgonzola, parmesan, chèvre. Pour les amateurs de fromage, une explosion de saveurs à chaque
+        bouchée garantie.</p>
+      <span class="price">11,00 €</span>
+    </div>
+
+    <div class="card" id="card3">
+
+      <img src="/PIZZA\Site-pizza-a-refondre\img\pizza03.jpeg" alt="pizza">
+      <h3>Pizza Kahoot</h3>
+      <p>Quizz, Stop Kahoot, Conforama, Lt Bus. Un quizz parfait entre simplicité et humour pour tous.</p>
+      <span class="price">10,50 €</span>
+    </div>
+
+    <div class="card" id="card4">
+
+      <img src="/PIZZA\Site-pizza-a-refondre\img\pizza04.jpeg" alt="pizza">
+      <h3>Pizza Calzone</h3>
+      <p>Pizza pliée garnie de jambon, mozzarella, champignons et œuf. Croustillante à l'extérieur, fondante à
+        l'intérieur.</p>
+      <span class="price">12,00 €</span>
+    </div>
+
+    <div class="card" id="card5">
+      <img src="/PIZZA\Site-pizza-a-refondre\img\pizzza05.jpeg" alt="pizza">
+      <h3>Pizza Vegetariana</h3>
+      <p>Poivrons, courgettes, aubergines, oignons rouges, mozzarella. Fraîcheur et légèreté pour les amateurs de
+        légumes grillés.</p>
+      <span class="price">10,00 €</span>
+    </div>
+
+    <div class="card" id="card6">
+
+      <img src="/PIZZA\Site-pizza-a-refondre\img\pizzza06.jpeg" alt="pizza">
+      <h3>Pizza Discount</h3>
+      <p>Figma, Auto-layout, tomate, Composant. Pour les amateurs de sensations fortes et de saveurs relevées.</p>
+      <span class="price">11,50 €</span>
+    </div>
+
+    <!-- 🕵️ Easter egg n°2 : cette carte elle n'apparaîtra nulle part si display:flex déborde mal, patience -->
+    <div class="card" id="card7">
+
+      <img src="/PIZZA\Site-pizza-a-refondre\img\pizzza06.jpeg" alt="pizza">
+      <h3>Pizza Chrono</h3>
+      <p>60 minutes de cuisson pile poil, ni plus ni moins. Attention à la casserole qui déborde si t'as pas fini à
+        temps.</p>
+      <span class="price">60,00 €</span>
+    </div>
   </div>
 
-  <div class="card" id="card4">
-    <h3>Pizza Calzone</h3>
-    <img src="https://via.placeholder.com/500x300" alt="pizza">
-    <p>Pizza pliée garnie de jambon, mozzarella, champignons et œuf. Croustillante à l'extérieur, fondante à l'intérieur.</p>
-    <span class="price">12,00 €</span>
+  <h2>Notre carte complète</h2>
+  <table class="menu-table">
+    <tr>
+      <td>Pizza</td>
+      <td>Prix petite</td>
+      <td>Prix grande
+    </tr>
+    <tr>
+      <td>Margherita</td>
+      <td>7,50 €</td>
+      <td>9,50 €</td>
+    </tr>
+    <tr>
+      <td>4 Fromages</td>
+      <td>9,00 €
+      <td>11,00 €</td>
+    </tr>
+    <tr>
+      <td>Regina</td>
+      <td>8,50 €</td>
+      <td>10,50 €</td>
+    </tr>
+  </table>
+
+  <div class="avis">
+    <h2>Ce que disent nos clients</h2>
+    <div class="item">
+      <span>"Meilleure pizza de la ville, sans hésiter !" - Julie</span><br>
+      <p></p>
+    </div>
+    <div class="item">
+      <span>"Un accueil chaleureux et des produits frais." - Marc</span><br>
+      <p></p>
+    </div>
+    <div class="item">
+      <span>"On y retourne toutes les semaines en famille." - Sophie</span><br>
+      <p></p>
+    </div>
   </div>
 
-  <div class="card" id="card5">
-    <h3>Pizza Vegetariana</h3>
-    <img src="https://via.placeholder.com/500x300" alt="pizza">
-    <p>Poivrons, courgettes, aubergines, oignons rouges, mozzarella. Fraîcheur et légèreté pour les amateurs de légumes grillés.</p>
-    <span class="price">10,00 €</span>
+  <h2>Réservez une table</h2>
+  <form>
+    <input type="text" placeholder="Nom">
+    <input type="text" placeholder="Téléphone">
+    <input type="text" placeholder="Nombre de personnes">
+    <input type="text" placeholder="Envoyer">
+  </form>
+
+  <div class="footer">
+    <p>Chez Mario <br> 12 rue du Kahoot <br> Tel: 01.23.45.67.89 <br> © 2026 tous droits ne sont pas réservés
   </div>
 
-  <div class="card" id="card6">
-    <h3>Pizza Figma</h3>
-    <img src="https://via.placeholder.com/500x300" alt="pizza">
-    <p>Figmaaaaaaaaaaaaaaaaaaaaaaaaaaaa, Auto-layout, tomate, Composant. Pour les amateurs de sensations fortes et de saveurs relevées.</p>
-    <span class="price">11,50 €</span>
-  </div>
-
-  <!-- 🕵️ Easter egg n°2 : cette carte elle n'apparaîtra nulle part si display:flex déborde mal, patience -->
-  <div class="card" id="card7">
-    <h3>Pizza Chrono</h3>
-    <img src="https://via.placeholder.com/500x300" alt="pizza">
-    <p>60 minutes de cuisson pile poil, ni plus ni moins. Attention à la casserole qui déborde si t'as pas fini à temps.</p>
-    <span class="price">60,00 min</span>
-  </div>
-</div>
-
-<h2>Notre carte complète</h2>
-<table class="menu-table">
-  <tr>
-    <td>Pizza</td>
-    <td>Prix petite</td>
-    <td>Prix grande
-  </tr>
-  <tr>
-    <td>Margherita</td>
-    <td>7,50 €</td>
-    <td>9,50 €</td>
-  </tr>
-  <tr>
-    <td>4 Fromages</td>
-    <td>9,00 €
-    <td>11,00 €</td>
-  </tr>
-  <tr>
-    <td>Regina</td>
-    <td>8,50 €</td>
-    <td>10,50 €</td>
-  </tr>
-</table>
-
-<div class="avis">
-  <h2>Ce que disent nos clients</h2>
-  <div class="item">
-    <span>"Meilleure pizza de la ville, sans hésiter !" - Julie</span>
-  </div>
-  <div class="item">
-    <span>"Un accueil chaleureux et des produits frais." - Marc</span>
-  </div>
-  <div class="item">
-    <span>"On y retourne toutes les semaines en famille." - Sophie</span>
-  </div>
-  <div class="item">
-    <span>"J'ai commandé une pizza et j'ai reçu un cours de Blender à la place, mais elle était bonne quand même." - un stagiaire CDUI anonyme</span>
-  </div>
-</div>
-
-<h2>Réservez une table</h2>
-<form>
-  <input type="text" placeholder="Nom">
-  <input type="text" placeholder="Téléphone">
-  <input type="text" placeholder="Nombre de personnes">
-  <button>Envoyer</button>
-</form>
-
-<div class="footer">
-  <p>Chez Mario - 12 rue du Kahoot - Tel: 01.23.45.67.89 - © 2026 tous droits ne sont pas réservés
-
-<!-- Easter egg n°3 : le dernier oeuf caché. Si t'as ouvert l'inspecteur jusqu'ici, t'es exactement le genre de dev qu'on veut former. -->
+  <!-- Easter egg n°3 : le dernier oeuf caché. Si t'as ouvert l'inspecteur jusqu'ici, t'es exactement le genre de dev qu'on veut former. -->
 
 </body>
+
 </html>

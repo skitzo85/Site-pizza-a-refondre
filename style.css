@@ -116,7 +116,7 @@ div.card {
 
 button {
   background: #4C7A3D;
-  color: #e6ece4;
+  color: #fdfdfd;
   height: 50px;
   width: 300px;
   border: 1px solid rgb(119, 118, 118);
@@ -136,7 +136,7 @@ button {
   height: 300px;
   border: 1px solid black;
   font-size: 20px;
-  color: white;
+  color: #000000;
   background: #E8B33D;
 }
 
@@ -203,5 +203,4 @@ form button {
 
 span.price {
   display: flex;
-
 }

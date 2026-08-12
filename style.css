@@ -7,6 +7,7 @@
 body {
   background-color: #F5E9D6;
   font-family: pacifico;
+  overflow-x: hidden;
 }
 
 .logoPizza {
